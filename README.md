@@ -35,3 +35,8 @@ docker-compose up
 Front End can be accessed at http://localhost:3000
 
 Back End server can be accessed at http://localhost:8000
+
+To stop Docker: ctrl + c in the terminal where docker-compose up is running, and then run the following command:
+```bash
+docker-compose down
+```
